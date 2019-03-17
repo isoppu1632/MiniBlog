@@ -1,0 +1,57 @@
+main {
+  width: 80%;
+  margin: 0 auto;
+  .blog_box {
+    position: relative;
+    background: #F0F0F0;
+    width: 100%;
+    height: 200px;
+    border:1px solid #5c5c5c;
+    box-shadow:2px 6px 6px -1px #969696;
+    padding: 20px 40px;
+    margin: 60px 0;
+    .blog_title {
+      margin: 15px 0 30px;
+      font-size: 30px;
+      display: block;
+      float: left;
+    }
+    .blog_time {
+      float: left;
+      margin: 30px 30px 0;
+      color: #808080;
+    }
+    .blog_text{
+      width: 100%;
+      color: #808080;
+      margin: 0 10px;
+      font-size: 20px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      float: left;
+    }
+    .contents{
+      float: right;
+      position: absolute;
+      right: 10px;
+      bottom: 20px;
+      li {
+        float: left;
+        background: #556b2f;
+        color: #ffffff;
+        margin: 0 10px;
+        padding: 10px 30px;
+        display: block;
+        border-radius: 20px;
+        box-shadow:7px 6px 6px -1px #57634C;
+        border: 1px solid #BAD4A1;
+        &:active {
+          box-shadow: none;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
