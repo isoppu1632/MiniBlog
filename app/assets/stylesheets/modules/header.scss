@@ -17,6 +17,7 @@ header {
     position: absolute;
     top: 30px;
     right: 20px;
+    cursor: pointer;
     li {
       float: right;
       background: #556b2f;
@@ -30,7 +31,6 @@ header {
       &:active {
         box-shadow: none;
         margin-top: 5px;
-        cursor: pointer;
       }
     }
   }
